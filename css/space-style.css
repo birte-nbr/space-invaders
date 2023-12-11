@@ -1,16 +1,28 @@
  .game-screen {
     display: flex;
     flex-direction: column;
-    /*margin:25vh auto; */ /* ### brauchst du die margin wirklich? */
     position: relative;
-    align-items: center;
+    align-items: flex-start; /* or align-items: flex-end; */
     background-image: url("galaxy.jpg");
     
 } 
-
 h1 {
-    color: aliceblue;
+    color: yellow;
+    margin: auto;
+    background-image: url("galaxy.jpg");
+    font-size: 50;
+    letter-spacing: 5px;
 }
+.textbox {
+    background-color: blueviolet;
+    margin-left: 50%;
+    
+}
+ h1, p {
+    font-family: "Rubik Bubbles";
+}
+ 
+
 /* .alien-grid {
  
    height: 200px;

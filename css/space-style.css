@@ -1,0 +1,67 @@
+ .game-screen {
+    display: flex;
+    flex-direction: column;
+    /*margin:25vh auto; */ /* ### brauchst du die margin wirklich? */
+    position: relative;
+    align-items: center;
+    background-image: url("galaxy.jpg");
+    
+} 
+
+h1 {
+    color: aliceblue;
+}
+/* .alien-grid {
+ 
+   height: 200px;
+   width: 40vw;
+   position: absolute;
+
+}
+ */
+.spaceship {
+    position: absolute;
+    width: 70px;
+	height: 70px;
+    bottom: 0;
+   
+}
+
+.game-border {
+    position: relative;
+    width: 50vw;
+    height: 70vh;
+    
+    /*margin: 25vh auto;*/ /* ### brauchst du die margin wirklich? */
+    background-color: black;
+   
+    align-items: center;
+   /* justify-content: center;*/
+    
+
+}
+
+.bullet {
+    position: relative;
+    width: 0.025vw;
+    height: 0.1vh;
+    border-radius: 50%;
+    border-style: solid;
+    /*bottom: 0; */
+}
+
+/* the bullets shot from the spaceship */
+/* #goodBullet {
+    border-color: #8ceb34;
+  
+   margin-left: 10%;
+
+ } 
+
+ the bullets shot by the aliens 
+
+ #badBullet {
+  border-color: #ff5e00;
+} */
+
+

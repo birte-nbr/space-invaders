@@ -20,12 +20,6 @@ $(document).ready(function () {
     const css_spaceship = $(".spaceship");
     const initialX = 200; // Set the initial X position directly
     const spaceship = new Spaceship(initialX, 10, 70, 70, css_spaceship);
-
-    
-let showLives = document.getElementById("lives");
-
-
-showLives.innerHTML = spaceship.lives;
       
     
     // now let's move the aliens and bullets that are shot by the aliens 
